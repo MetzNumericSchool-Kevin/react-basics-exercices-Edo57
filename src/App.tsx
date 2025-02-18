@@ -1,17 +1,14 @@
 import "./App.css";
-import Exercice1 from "./exercices1/component";
+import Exercice1 from "./exercices1/BienvenueAventurier";
+import Exercice2 from "./exercices2/BoutonAppelArchibald";
 
 function App() {
   return (
     <div className="container p-5 mb-4 bg-body-tertiary rounded-3">
       
         <Exercice1 />
+        <Exercice2 />
       
-      <section id="exercice2">
-        <h2>Si je ne suis pas là, faites sonner la cloche !</h2>
-        <button className="btn btn-primary">🛎️ Appeler Archibald</button>
-      </section>
-
       <h1 className="my-5">Voici quelques objets de ma boutique :</h1>
 
       <section id="exercice3" className="my-5 flex self-center">
